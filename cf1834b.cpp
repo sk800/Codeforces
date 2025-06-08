@@ -46,3 +46,14 @@ int main()
 // Scalable API Design for Testing Automation: Developed REST APIs and WebSocket services for managing user stories, retrieving task statuses, and generating test cases, ensuring scalability and ease of integration with external systems.
 
 Automated Test Case Generation Using AI and Document Processing
+
+
+
+Project: AI-Powered Test Automation Framework
+Designed and implemented an AI-driven framework to automate the generation of test cases and executable test scripts by processing user stories and supporting documents (PDFs, images, and CSVs) using OpenAI GPT models and LangChain.
+Developed document processing pipelines leveraging tools like Detectron2, PyMuPDF, and OpenCV to extract structured data (e.g., tables, flowcharts, and text) from unstructured documents for metadata creation and test case generation.
+Automated flowchart and table analysis by extracting end-to-end flows and converting them into structured CSV files, ensuring comprehensive coverage of decision points and routes for test case creation.
+Integrated AI-based test case generation using dynamic prompts and templates, ensuring alignment with user stories and extracted document data while maintaining end-to-end coverage and merging similar test cases.
+Built a code generation pipeline to convert test cases into executable Selenium scripts, incorporating parameterization for reusability and AI-based error correction for issues like incorrect XPath selectors.
+Streamlined the workflow by automating the entire process from document processing to test case generation, code execution, and validation, enabling seamless integration into CI/CD pipelines and improving testing efficiency.
+This summary highlights the integration of AI, automation, and document processing to deliver a robust test automation framework.
