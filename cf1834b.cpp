@@ -57,3 +57,12 @@ Integrated AI-based test case generation using dynamic prompts and templates, en
 Built a code generation pipeline to convert test cases into executable Selenium scripts, incorporating parameterization for reusability and AI-based error correction for issues like incorrect XPath selectors.
 Streamlined the workflow by automating the entire process from document processing to test case generation, code execution, and validation, enabling seamless integration into CI/CD pipelines and improving testing efficiency.
 This summary highlights the integration of AI, automation, and document processing to deliver a robust test automation framework.
+
+
+
+Utilizes the YOLO (You Only Look Once) model to count the number of people entering the workplace at the gate.
+Continuous monitoring of workers to ensure they are wearing the proper PPE (Personal Protective Equipment) kit. 
+The video feed from the cameras is processed by the YOLO model to detect the presence and proper usage of PPE kits.
+If a worker is not wearing the PPE kit properly, the system captures an image of the individual and saved in database.
+The image is then sent to the supervisor via email or WhatsApp for immediate action.
+
